@@ -1,5 +1,8 @@
 # Identify-and-Remove-Suspicious-Browser-Extensions
 Awareness of browser security risks and managing browser extensions
+
+
+
  Documentation
 Core Guides
 •	Extension Identification Guide - How to spot suspicious extensions
@@ -20,10 +23,6 @@ Key Features
 •	 Risk scoring algorithms
 •	 Detailed HTML/JSON reporting
 •	 Integration with threat intelligence APIs
-
-
-
-
  Examples
 Sample Suspicious Extensions List
 View the suspicious extensions database containing:
@@ -32,11 +31,7 @@ View the suspicious extensions database containing:
 •	Malicious behaviors observed
 •	Removal recommendations
  Security Guidelines
-Best Practices
-1.	Regular Audits
-# Schedule monthly extension reviews
-crontab -e
-# Add: 0 9 1 * * /path/to/browser-extension-audit.sh --email-report
+
 
 2.	Permission Management
 o	Review extension permissions quarterly
